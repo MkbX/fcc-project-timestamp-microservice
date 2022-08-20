@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <title>Timestamp Microservice | freeCodeCamp.org</title>
+      <link rel="shortcut icon" href="https://cdn.freecodecamp.org/universal/favicons/favicon-32x32.png" type="image/x-icon"/>
+      <link href="style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+    <div class="header">
+      <h1>Timestamp Microservice</h1>
+    </div>
+    <div class="container">
+      <h3>Timestamp API</h3>
+      <p>This API returns UTC time and Unix timestamp (milliseconds).</p>
+      <h3>Details</h3>
+      <p><code>GET</code>      <url>/api/[date or timestamp]</url></p>
+      <p>Replace [date or timestamp] with a valid date or a timestamp to get a JSON object as response. <br/><br/> E.g: "/api/2002-02-02" or "/api/1012608000000".</p>
+
+      <div class="contContainer">
+        <div class="codeContainer">
+          <div class="titleCode">Request</div>
+          <div class="innerCode">
+            [Base URL]/api/2002-02-02 or [Base URL]/api/1012608000000
+          </div>
+        </div>
+        <div class="codeContainer">
+          <div class="titleCode">Response</div>
+          <div class="innerCode">
+            {"unix":1012608000000, "utc":"Sat, 02 Feb 2002 00:00:00 GMT"}
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+  </body>
+</html>
